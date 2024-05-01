@@ -8,7 +8,7 @@ function emailSend() {
         // fetch("https://ksa-crashlab-mailer-new-production.up.railway.app/sendEmail", {
 
 
-        method: "POST",
+        method: "GET",
         body: JSON.stringify({
             "name": document.getElementById('username').value,
             "email": document.getElementById('useremail').value,
